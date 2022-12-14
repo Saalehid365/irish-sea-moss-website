@@ -1,19 +1,16 @@
 import React from "react";
-import Banner from "./Banner";
+import { FaShoppingBasket } from "react-icons/fa";
 import { Link } from "react-router-dom";
-import { FaShoppingBasket, FaSearch } from "react-icons/fa";
 
 export const Navbar = () => {
   return (
     <div className="navbar">
       <div className="links">
-        <Link to="./"></Link>
-        <Link>
-          <FaShoppingBasket />
+        <Link to="/">Shop</Link>
+        <Link to="/Cart">
+          <FaShoppingBasket />{" "}
         </Link>
       </div>
     </div>
   );
 };
-
-export default Navbar;
