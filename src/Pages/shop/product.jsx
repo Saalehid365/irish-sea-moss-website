@@ -1,17 +1,17 @@
-import React, { useContext } from "react";
-import { ShopContext } from "../../context/ShopContext";
+import "./product.css";
 
 export const Product = (props) => {
-  const { id, productName, price } = props.data;
-  const { addToCart } = useContext(ShopContext);
+  const { id, productName, productImg, price } = props.data;
+
   return (
     <div className="productsList">
-      <div>
+      <div className="product">
+        <img src={productImg} alt="/" />
         <h2>{productName}</h2>
         <p>{price}</p>
         <p>Qty {id}</p>
+        <button>Add to cart</button>
       </div>
-      <button onClick={() => addToCart()}>Add to cart</button>
     </div>
   );
 };

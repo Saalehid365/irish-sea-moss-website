@@ -1,0 +1,9 @@
+.productsList {
+  height: 400px;
+  width: 200px;
+  border: 1px solid grey;
+}
+.productsList img {
+  height: 70%;
+  width: 100%;
+}

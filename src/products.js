@@ -29,4 +29,28 @@ export const PRODUCTS = [
     price: 1.99,
     productImg: product2,
   },
+  {
+    id: 3,
+    productName: "magnesium lotion",
+    price: 1.99,
+    productImg: product2,
+  },
+  {
+    id: 3,
+    productName: "magnesium lotion",
+    price: 1.99,
+    productImg: product2,
+  },
+  {
+    id: 3,
+    productName: "magnesium lotion",
+    price: 1.99,
+    productImg: product2,
+  },
+  {
+    id: 3,
+    productName: "magnesium lotion",
+    price: 1.99,
+    productImg: product2,
+  },
 ];

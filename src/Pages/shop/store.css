@@ -1,0 +1,22 @@
+.store {
+  margin-left: 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+.listOfProducts {
+  display: grid;
+
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  row-gap: 45px;
+}
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.about p {
+}

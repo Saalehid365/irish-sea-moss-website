@@ -1,0 +1,22 @@
+.navbar {
+  height: 150px;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 0.1px solid rgba(0, 0, 0, 0.094);
+}
+.navbarIcons {
+  display: flex;
+  width: 60%;
+
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.3rem;
+}
+.links {
+  display: flex;
+  width: 40%;
+  justify-content: space-evenly;
+}
