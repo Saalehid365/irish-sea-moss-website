@@ -1,16 +1,38 @@
 import "./product.css";
+import { Link } from "react-router-dom";
+import { ShopContext } from "../../context/shop-context";
+import { useContext } from "react";
 
 export const Product = (props) => {
-  const { id, productName, productImg, price } = props.data;
+  const { productName, productImg, price, size, id, subtitle, ingredients } =
+    props.data;
 
+  const { addToCart, cartItems } = useContext(ShopContext);
+
+  const cartItemAmount = cartItems[id];
   return (
     <div className="productsList">
       <div className="product">
-        <img src={productImg} alt="/" />
-        <h2>{productName}</h2>
-        <p>{price}</p>
-        <p>Qty {id}</p>
-        <button>Add to cart</button>
+        <Link to="/description" ele>
+          <div className="productImgDiv">
+            <img src={productImg} alt="h" />
+          </div>
+          <h2>
+            {productName} {size}
+          </h2>
+          <p className="subs">{subtitle}</p>
+          <p>{ingredients}</p>
+        </Link>
+        <p>
+          <b>£{price}</b>
+        </p>
+        <p></p>
+
+        <div className="priceCart">
+          <button onClick={() => addToCart(id)} className="addToCart">
+            Add to cart{cartItemAmount > 0 && <> ({cartItemAmount})</>}
+          </button>
+        </div>
       </div>
     </div>
   );

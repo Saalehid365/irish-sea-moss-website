@@ -1,0 +1,19 @@
+.aboutSec {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.abtSec {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 800px;
+  height: 500px;
+}
+.abtSec h3 {
+  font-size: 3rem;
+}
+.abtSec p {
+  font-size: 1.5rem;
+}

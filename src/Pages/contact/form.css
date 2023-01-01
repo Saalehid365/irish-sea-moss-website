@@ -1,0 +1,46 @@
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
+}
+.formStyle {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 100%;
+}
+.formStyle input {
+  font-size: 1.1rem;
+}
+.field {
+  height: 40px;
+  width: 400px;
+  border-radius: 2px;
+  padding: 0 10px;
+}
+.field1 {
+  height: 120px;
+  border-radius: 2px;
+  padding: 0 10px;
+  max-width: 400px;
+  min-width: 400px;
+  max-height: 300px;
+}
+.submit {
+  background-color: grey;
+  border: none;
+  height: 40px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+.submit:hover {
+  background-color: rgb(203, 191, 191);
+  transition: 0.2s;
+}

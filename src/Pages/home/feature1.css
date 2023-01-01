@@ -1,0 +1,47 @@
+.featureContainer {
+  height: 500px;
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  margin: 200px 0;
+}
+.featureImg img {
+  height: 400px;
+  width: 600px;
+  border-radius: 30px;
+}
+.newCircle {
+  position: absolute;
+  height: 155px;
+  width: 155px;
+  border-radius: 100px;
+  background-color: rgb(67, 136, 67);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.4rem;
+  bottom: 400px;
+  left: 700px;
+}
+.featureText {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 300px;
+}
+.featureText h2 {
+  font-size: 2rem;
+}
+.featureText p {
+  text-align: center;
+  font-size: 1.5rem;
+}
+.shopNow {
+  background-color: rgb(67, 136, 67);
+  width: 100px;
+  height: 20px;
+}

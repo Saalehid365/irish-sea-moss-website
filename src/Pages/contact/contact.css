@@ -1,0 +1,59 @@
+.contactMain {
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contactDetails {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 800px;
+  height: 100%;
+}
+.contactDetails h3 {
+  font-size: 3rem;
+}
+.gotAQuestion {
+  width: 800px;
+}
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
+}
+.formStyle {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 100%;
+}
+.formStyle input {
+  font-size: 1.1rem;
+}
+.field {
+  height: 40px;
+  width: 400px;
+  border-radius: 2px;
+  padding: 0 10px;
+}
+.field1 {
+  height: 120px;
+  border-radius: 2px;
+  padding: 0 10px;
+}
+.submit {
+  background-color: grey;
+  height: 50px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+.submit {
+  cursor: pointer;
+}

@@ -1,0 +1,69 @@
+.container {
+  height: 500px;
+  background-color: grey;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.offersSign {
+  display: flex;
+  align-items: center;
+  background-color: rgb(26, 62, 26);
+  width: 1200px;
+  height: 150px;
+  border-radius: 10px;
+}
+.offersLeft {
+  width: 500px;
+  height: 100%;
+  padding: 20px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  color: white;
+}
+
+.form {
+  display: flex;
+}
+
+.text {
+  width: 100px;
+  height: 40px;
+  border-radius: 8px;
+  margin-right: 10px;
+  font-size: 1rem;
+  padding-left: 20px;
+  border-style: none;
+}
+#email {
+  width: 180px;
+  border-radius: 8px;
+  margin-right: 10px;
+  font-size: 1rem;
+  padding-left: 20px;
+  border-style: none;
+}
+.signup {
+  width: 120px;
+  border-radius: 8px;
+  font-size: 1rem;
+  border-style: none;
+  background-color: rgb(210, 125, 125);
+  color: white;
+}
+.socials {
+  font-size: 2.3rem;
+  width: 300px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.socials a:any-link {
+  text-decoration: none;
+  color: rgb(26, 62, 26);
+}
+.socials a:hover {
+  color: white;
+}
